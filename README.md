@@ -4,7 +4,7 @@ This is the demo repo for a blog post on how to create an Electron application u
 
 Read the blog post [here](https://medium.com/@cjus/desktop-apps-using-electron-preact-and-material-design-8161938624c6)
 
-[![Video demo](https://youtu.be/A013Sp86sHE)](https://youtu.be/A013Sp86sHE)
+[![Video demo](https://img.youtube.com/vi/A013Sp86sHE/0.jpg)](https://www.youtube.com/watch?v=A013Sp86sHE)
 
 ## CLI Commands
 
