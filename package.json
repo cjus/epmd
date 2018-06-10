@@ -1,0 +1,54 @@
+{
+  "private": true,
+  "name": "epmd",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "Electron Preact Material Design",
+  "homepage": "./",
+  "main": "electron/main.js",
+  "build": {
+    "productName": "EPMD Demo App",
+    "appId": "com.cjus.epmd",
+    "electronVersion": "2.0.2",
+    "files": [
+      "build/**/*",
+      "electron/*"
+    ]
+  },
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run -s serve || npm run -s pdev",
+    "build": "preact build",
+    "serve": "preact build && preact serve",
+    "pdev": "preact watch",
+    "dev": "nf start",
+    "lint": "eslint src",
+    "electron": "electron .",
+    "ebuild": "npm build && node_modules/.bin/build"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-synacor",
+    "rules": {
+      "no-unused-vars": "warn",
+      "react/sort-comp": "off",
+      "lines-around-comment": "off",
+      "react/prefer-stateless-function": "off"
+    }
+  },
+  "eslintIgnore": [
+    "build/*"
+  ],
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-synacor": "^1.1.0",
+    "if-env": "^1.0.0",
+    "preact-cli": "^2.0.0"
+  },
+  "dependencies": {
+    "electron": "^2.0.2",
+    "electron-builder": "^20.15.1",
+    "preact": "^8.2.1",
+    "preact-compat": "^3.17.0",
+    "preact-material-components": "^1.4.3",
+    "preact-router": "^2.5.5"
+  }
+}
