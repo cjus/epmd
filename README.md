@@ -1,6 +1,10 @@
-# preact material app
+# Electron Preact Material Design demo
 
-Super performant `Material` app for preact world using [preact-material-components](https://github.com/prateekbh/preact-material-components)
+This is the demo repo for a blog post on how to create an Electron application using PreactJS and Material Design.
+
+Read the blog post [here](https://medium.com/@cjus/desktop-apps-using-electron-preact-and-material-design-8161938624c6)
+
+[![Video demo](https://youtu.be/A013Sp86sHE)](https://youtu.be/A013Sp86sHE)
 
 ## CLI Commands
 
