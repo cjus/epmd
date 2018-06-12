@@ -13,6 +13,10 @@ import 'preact-material-components/Toolbar/style.css';
 // import style from './style';
 
 export default class Header extends Component {
+  componentDidMount() {
+    this.goHome();
+  }
+
 	closeDrawer() {
 		this.drawer.MDComponent.open = false;
 		this.state = {

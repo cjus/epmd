@@ -23,7 +23,8 @@
     "dev": "nf start",
     "lint": "eslint src",
     "electron": "electron .",
-    "ebuild": "npm build && node_modules/.bin/build"
+    "fixup": "node baseFixup.js",
+    "ebuild": "NODE_ENV=production npm run build && npm run fixup && NODE_ENV=production node_modules/.bin/build"
   },
   "eslintConfig": {
     "extends": "eslint-config-synacor",
