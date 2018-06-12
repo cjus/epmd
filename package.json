@@ -38,14 +38,14 @@
     "build/*"
   ],
   "devDependencies": {
+    "electron": "^2.0.2",
+    "electron-builder": "^20.15.1",
     "eslint": "^4.5.0",
     "eslint-config-synacor": "^1.1.0",
     "if-env": "^1.0.0",
     "preact-cli": "^2.0.0"
   },
   "dependencies": {
-    "electron": "^2.0.2",
-    "electron-builder": "^20.15.1",
     "preact": "^8.2.1",
     "preact-compat": "^3.17.0",
     "preact-material-components": "^1.4.3",
